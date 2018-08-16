@@ -1,0 +1,12 @@
+package com.let;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.sidecar.EnableSidecar;
+
+@SpringBootApplication
+@EnableSidecar
+public class SidecarRunApplication {
+	public static void main(String[] args) {
+		SpringApplication.run(SidecarRunApplication.class, args);
+	}
+}
